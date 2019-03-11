@@ -1,0 +1,7 @@
+<a href='/'>HOME</a>
+<h1>POSTS</h1>
+
+
+<% posts.forEach( function(post) { %>
+    <div><ul><li><h1><%= post.title %></h1><%= post.body %></li></ul></div><br>
+<% }) %>
